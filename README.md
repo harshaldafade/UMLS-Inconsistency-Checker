@@ -40,7 +40,7 @@ This tool works on the `MRREL.RRF` file found in UMLS releases. If you do not ha
 ### ▶️ Basic Command
 
 ```bash
-python UMLS_Inconsistency_Checker.py -i path/to/MRREL.RRF -t both
+python umls_inconsistency_checker.py -i path/to/MRREL.RRF -t both
 ```
 ## 🔧 Arguments
 
