@@ -67,11 +67,16 @@ Results will be saved in a `res/` folder with timestamped filenames:
 
 ## 🧪 Sample MRREL Format
 
+The actual UMLS `MRREL.RRF` file includes **many fields** beyond just concept IDs and relationships. Here's an example of a **realistic entry**:
 ```txt
-C0001|||CHD|C0002|
-C0002|||CHD|C0003|
-C0003|||CHD|C0001|     ← parent-child cycle
+C0000005|A13433185|SCUI|RB|C0036775|A7466261|SCUI||R86000559||MSHFRE|MSHFRE|||N||
+```
 
-C0010|||RB|C0011|
-C0011|||RB|C0012|
-C0012|||RB|C0010|      ← broader-than cycle
+This line contains information like:
+- Source and target CUIs (e.g., `C0000005`, `C0036775`)
+- Relationship type (e.g., `RB` for *broader-than*)
+- Source vocabularies (`MSHFRE`, `MSH`)
+- And other identifiers like AUIs, ATNs, RELA, etc.
+
+
+
