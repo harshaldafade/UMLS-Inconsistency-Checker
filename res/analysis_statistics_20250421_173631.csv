@@ -1,0 +1,11 @@
+Metric,Value
+Total Parent-Child Relationships,3206211
+Total Broader-Than Relationships,1493456
+Total Unique Relationship Types,10
+Total Self-Loops,687421
+Total Duplicates,4485616
+Parent-Child Cycle Count,2568
+Parent-Child Detection Time (s),6.28
+Broader-Than Violation Count,5070
+Broader-Than Detection Time (s),258.8
+Total Runtime (s),440.77

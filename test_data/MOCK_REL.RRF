@@ -1,0 +1,7 @@
+C0001|||CHD|C0002|
+C0002|||CHD|C0003|
+C0003|||CHD|C0001|     ← parent-child loop
+
+C0010|||RB|C0011|
+C0011|||RB|C0012|
+C0012|||RB|C0010|      ← broader-than loop
