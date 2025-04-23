@@ -3,9 +3,9 @@
 A Python-based tool to detect hierarchical inconsistencies in the **Unified Medical Language System (UMLS)** ontology structure using the `MRREL.RRF` file.
 
 This tool identifies:
-- 🔁 **Parent-Child Cycles** (e.g., A → B → C → A)
-- 🔄 **Broader-Than Violations** (e.g., A is broader than B and B is broader than A)
-- ♻️ **Self-loops** (e.g., A → A)
+- 🔁 **Parent-Child Cycles** 
+- 🔄 **Broader-Than Violations** 
+- ♻️ **Self-loops** 
 - 📊 **Duplicate Relationships**
 
 ---
